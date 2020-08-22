@@ -166,6 +166,7 @@ MonoBehaviour:
   ichimoji_: 0
   check_: 0
   speed_: 0.01
+  name_: "\u7121\u82B1\u679C(\u3044\u3061\u3058\u304F)"
 --- !u!1 &5794077849912015738
 GameObject:
   m_ObjectHideFlags: 0

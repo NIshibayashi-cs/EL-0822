@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GoToScene_Game : MonoBehaviour
 {
-    private string gameSceneName = "SampleScene";
+    private string gameSceneName = "game";
     // Start is called before the first frame update
     public void OnClick()
     {

@@ -21,7 +21,7 @@ public class manager : MonoBehaviour
         if (frameCount_ % (1000 - System.Math.Min(createCount_ * 60 , 600)) == 0)
         {
             GameObject o;
-            o = Instantiate(prehub_[Random.Range(0, prehub_.Length)], new Vector3(15.0f, 0.0f, 1.0f), Quaternion.identity);
+            o = Instantiate(prehub_[Random.Range(0, prehub_.Length)], new Vector3(15.0f, -2.0f, 1.0f), Quaternion.identity);
             o.gameObject.GetComponent<obj>().speed_ = 0.02f + System.Math.Min((float)createCount_ * 0.001f, 0.1f);
             createCount_++;
         }
