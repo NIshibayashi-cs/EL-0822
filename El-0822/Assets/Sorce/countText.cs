@@ -33,4 +33,9 @@ public class countText : MonoBehaviour
         count_--;
         gameObject.GetComponent<Text>().text = "" + count_;
     }
+
+    public int GetCount()
+    {
+        return count_;
+    }
 }
