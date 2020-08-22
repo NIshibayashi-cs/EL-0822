@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class hanntei : MonoBehaviour
 {
@@ -36,6 +37,8 @@ public class hanntei : MonoBehaviour
             transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.GetComponent<mark>().Husekikai();
         }
 
+        transform.GetChild(1).gameObject.transform.GetChild(1).gameObject.GetComponent<Text>().text = other.gameObject.GetComponent<obj>().name_;
+        
         // ふきだしだす
         transform.GetChild(0).gameObject.SetActive(true);
         frameCount_ = 0;
